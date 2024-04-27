@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input {
+  padding: 10px;
+  background-color: rgba(227, 223, 223, 0.474);
+  color: black;
+  border-radius: 10px;
+  padding-left: 32px;
+  outline: none;
+  border: none;
+  max-width: 300px;
+  font-size: 12px;
+}
+
+input:hover:focus {
+  box-shadow: 0 0 0 2px rgba(245, 83, 83, 0.997);
+}
+
+input:focus {
+  box-shadow: 0 0 0 2px rgba(245, 83, 83, 0.997);
+}
+
+.dark input:hover {
+  box-shadow: 0 0 0 2px rgba(175, 72, 72, 0.997);
+}
+
+.dark input:focus {
+  box-shadow: 0 0 0 2px rgba(175, 72, 72, 0.997);
+}
+
+.dark input {
+  background-color: rgba(59, 59, 59, 0.149);
+  color: white;
+}
